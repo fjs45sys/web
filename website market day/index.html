@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Proposal Kegiatan Market Day - Singkong Keju & Tela-Tela" />
+  <title>Market Day — Singkong Keju & Tela-Tela</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Caveat:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background decor (ringan, tanpa blur berat) -->
+  <div class="bg-decor" aria-hidden="true"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="brand">
+        <div class="brand-icon">
+          <i class="fas fa-store"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Market Day</span>
+          <span class="brand-sub">Singkong Keju & Tela-Tela</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Beranda</a></li>
+        <li><a href="#produk" class="nav-link">Produk</a></li>
+        <li><a href="#latar" class="nav-link">Latar Belakang</a></li>
+        <li><a href="#tujuan" class="nav-link">Tujuan</a></li>
+        <li><a href="#produksi" class="nav-link">Produksi</a></li>
+        <li><a href="#anggaran" class="nav-link">Anggaran</a></li>
+        <li><a href="#anggota" class="nav-link">Anggota</a></li>
+        <li><a href="#penutup" class="nav-link">Penutup</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">SNACK</div>
+    <div class="hero-container">
+      <div class="hero-left">
+        <div class="hero-tag">
+          <span class="dot-pulse"></span> Proposal Kewirausahaan Siswa
+        </div>
+        <h1 class="hero-title">
+          Market Day
+          <span class="title-accent">Singkong Keju & Tela-Tela</span>
+        </h1>
+        <p class="hero-theme">
+          <i class="fas fa-quote-left"></i>
+          Kreatif Berwirausaha, Menjadi Generasi Produktif
+        </p>
+        <p class="hero-desc">
+          Kegiatan ini melatih siswa dalam berwirausaha — mulai dari
+          merencanakan produk, menyiapkan bahan, proses produksi, pemasaran,
+          hingga menghitung keuntungan.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#produk" class="btn btn-primary">
+            <i class="fas fa-utensils"></i> Lihat Produk
+          </a>
+          <a href="#anggaran" class="btn btn-outline">
+            Rincian Biaya <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <h3>2</h3>
+            <p>Produk Andalan</p>
+          </div>
+          <div class="stat">
+            <h3>Rp5K</h3>
+            <p>Harga / Porsi</p>
+          </div>
+          <div class="stat">
+            <h3>Rp195K</h3>
+            <p>Total Modal</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-img">
+            <img src="images/singkong-keju.jpg"
+              alt="Singkong Keju"
+              loading="lazy"
+            />
+            <span class="badge">Best Seller</span>
+          </div>
+          <div class="hero-card-body">
+            <h4>Singkong Keju</h4>
+            <p>Renyah di luar, lembut di dalam</p>
+            <div class="hero-card-price">
+              <span>Rp5.000</span>
+              <button class="mini-btn" aria-label="Tambah">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card hero-card-2">
+          <div class="hero-card-img">
+            <img src="images/tela-tela.jpg"
+                alt="Tela-Tela"
+                loading="lazy"
+            />
+            <span class="badge badge-dark">Favorit</span>
+          </div>
+          <div class="hero-card-body">
+            <h4>Tela-Tela</h4>
+            <p>Berbagai pilihan bumbu tabur</p>
+            <div class="hero-card-price">
+              <span>Rp5.000</span>
+              <button class="mini-btn" aria-label="Tambah">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="sticker sticker-1">Fresh!</div>
+        <div class="sticker sticker-2">Yummy!</div>
+      </div>
+    </div>
+
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>Singkong Keju</span><span>★</span>
+        <span>Tela-Tela</span><span>★</span>
+        <span>Harga Ramah Kantong</span><span>★</span>
+        <span>Renyah & Gurih</span><span>★</span>
+        <span>Singkong Keju</span><span>★</span>
+        <span>Tela-Tela</span><span>★</span>
+        <span>Harga Ramah Kantong</span><span>★</span>
+        <span>Renyah & Gurih</span><span>★</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUK ============ -->
+  <section class="section" id="produk">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">— Menu Andalan —</span>
+        <h2 class="section-title">Produk yang Kami Jual</h2>
+        <p class="section-sub">
+          Dua olahan singkong dengan cita rasa berbeda, siap menggoyang lidah
+          para pembeli.
+        </p>
+      </div>
+
+      <div class="produk-grid">
+        <article class="produk-card" data-produk="Singkong Keju">
+          <div class="produk-img">
+            <img
+              src="images/singkong-keju.jpg"
+              alt="Singkong Keju"
+              loading="lazy"
+            />
+            <span class="produk-tag">Signature</span>
+          </div>
+          <div class="produk-body">
+            <h3>Singkong Keju</h3>
+            <p>
+              Singkong yang diolah hingga memiliki tekstur renyah di luar dan
+              lembut di dalam, kemudian diberi topping atau taburan keju
+              melimpah.
+            </p>
+            <ul class="produk-list">
+              <li><i class="fas fa-check"></i> Renyah di luar, lembut di dalam</li>
+              <li><i class="fas fa-check"></i> Topping keju melimpah</li>
+              <li><i class="fas fa-check"></i> Cocok untuk semua kalangan</li>
+            </ul>
+            <div class="produk-footer">
+              <div class="price-box">
+                <span class="price-label">Harga / porsi</span>
+                <span class="price-value">Rp5.000</span>
+              </div>
+              <button class="btn-buy" data-produk="Singkong Keju">
+                Pesan <i class="fas fa-shopping-bag"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="produk-card featured" data-produk="Tela-Tela">
+          <div class="produk-img">
+            <img
+              src="images/tela-tela.jpg"
+              alt="Tela-Tela"
+              loading="lazy"
+            />
+            <span class="produk-tag">Banyak Rasa</span>
+          </div>
+          <div class="produk-body">
+            <h3>Tela-Tela</h3>
+            <p>
+              Potongan singkong yang digoreng hingga renyah dan diberi berbagai
+              pilihan bumbu tabur yang menggugah selera.
+            </p>
+            <div class="rasa-list">
+              <span class="rasa-chip">Balado</span>
+              <span class="rasa-chip">Barbeque</span>
+              <span class="rasa-chip">Keju</span>
+              <span class="rasa-chip">Jagung Bakar</span>
+            </div>
+            <div class="produk-footer">
+              <div class="price-box">
+                <span class="price-label">Harga / porsi</span>
+                <span class="price-value">Rp5.000</span>
+              </div>
+              <button class="btn-buy" data-produk="Tela-Tela">
+                Pesan <i class="fas fa-shopping-bag"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="target-box">
+        <div class="target-head">
+          <i class="fas fa-users"></i>
+          <h3>Target Konsumen</h3>
+        </div>
+        <div class="target-list">
+          <div class="target-item">
+            <i class="fas fa-user-graduate"></i>
+            <span>Siswa & Siswi</span>
+          </div>
+          <div class="target-item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <span>Guru & Tenaga Kependidikan</span>
+          </div>
+          <div class="target-item">
+            <i class="fas fa-school"></i>
+            <span>Warga Sekolah Lainnya</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LATAR BELAKANG ============ -->
+  <section class="section section-warm" id="latar">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">— A. Latar Belakang —</span>
+        <h2 class="section-title">Mengapa Market Day?</h2>
+      </div>
+
+      <div class="latar-grid">
+        <div class="latar-text">
+          <p class="latar-lead">
+            <i class="fas fa-quote-left"></i>
+            Market Day merupakan kegiatan yang dapat melatih siswa dalam
+            berwirausaha, mulai dari merencanakan produk, menyiapkan bahan,
+            proses produksi, pemasaran, hingga menghitung keuntungan.
+          </p>
+          <p>
+            Melalui kegiatan ini, siswa diharapkan dapat mengembangkan
+            <strong>kreativitas</strong>, <strong>kerja sama</strong>,
+            <strong>tanggung jawab</strong>, dan kemampuan
+            <strong>mengelola usaha sederhana</strong>.
+          </p>
+          <p>
+            Dalam kegiatan ini, kami memilih <strong>Singkong Keju</strong> dan
+            <strong>Tela-Tela</strong> sebagai produk yang dijual. Kedua makanan
+            tersebut dipilih karena bahan-bahannya mudah diperoleh, cara
+            pembuatannya cukup sederhana, memiliki banyak pilihan rasa, dan
+            disukai oleh berbagai kalangan.
+          </p>
+        </div>
+
+        <div class="latar-cards">
+          <div class="mini-card">
+            <div class="mini-icon"><i class="fas fa-lightbulb"></i></div>
+            <h4>Mudah Diperoleh</h4>
+            <p>Bahan-bahan tersedia di pasar terdekat</p>
+          </div>
+          <div class="mini-card">
+            <div class="mini-icon"><i class="fas fa-cogs"></i></div>
+            <h4>Proses Sederhana</h4>
+            <p>Cara pembuatan mudah dipahami siswa</p>
+          </div>
+          <div class="mini-card">
+            <div class="mini-icon"><i class="fas fa-heart"></i></div>
+            <h4>Disukai Banyak</h4>
+            <p>Cocok untuk semua kalangan</p>
+          </div>
+          <div class="mini-card">
+            <div class="mini-icon"><i class="fas fa-palette"></i></div>
+            <h4>Banyak Rasa</h4>
+            <p>Pilihan bumbu yang variatif</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tema-banner">
+        <div class="tema-icon"><i class="fas fa-bullseye"></i></div>
+        <div class="tema-content">
+          <span class="tema-label">C. Tema Kegiatan</span>
+          <h3>"Kreatif Berwirausaha, Menjadi Generasi Produktif"</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TUJUAN ============ -->
+  <section class="section" id="tujuan">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">— D. Tujuan Kegiatan —</span>
+        <h2 class="section-title">Apa yang Ingin Dicapai?</h2>
+        <p class="section-sub">
+          Enam tujuan utama dari pelaksanaan kegiatan Market Day ini.
+        </p>
+      </div>
+
+      <div class="tujuan-grid">
+        <div class="tujuan-card">
+          <div class="tujuan-num">01</div>
+          <div class="tujuan-icon"><i class="fas fa-rocket"></i></div>
+          <h4>Jiwa Kewirausahaan</h4>
+          <p>Melatih jiwa kewirausahaan siswa sejak dini.</p>
+        </div>
+        <div class="tujuan-card">
+          <div class="tujuan-num">02</div>
+          <div class="tujuan-icon"><i class="fas fa-lightbulb"></i></div>
+          <h4>Kreativitas Produk</h4>
+          <p>Meningkatkan kreativitas dalam membuat produk makanan.</p>
+        </div>
+        <div class="tujuan-card">
+          <div class="tujuan-num">03</div>
+          <div class="tujuan-icon"><i class="fas fa-people-group"></i></div>
+          <h4>Kerja Sama Tim</h4>
+          <p>Melatih kemampuan bekerja sama dalam kelompok.</p>
+        </div>
+        <div class="tujuan-card">
+          <div class="tujuan-num">04</div>
+          <div class="tujuan-icon"><i class="fas fa-chart-line"></i></div>
+          <h4>Kelola Usaha</h4>
+          <p>Mengenalkan cara sederhana dalam mengelola usaha.</p>
+        </div>
+        <div class="tujuan-card">
+          <div class="tujuan-num">05</div>
+          <div class="tujuan-icon"><i class="fas fa-flask"></i></div>
+          <h4>Pengalaman Nyata</h4>
+          <p>Mendapatkan pengalaman dalam proses produksi dan pemasaran.</p>
+        </div>
+        <div class="tujuan-card">
+          <div class="tujuan-num">06</div>
+          <div class="tujuan-icon"><i class="fas fa-coins"></i></div>
+          <h4>Keuntungan</h4>
+          <p>Memperoleh keuntungan dari hasil penjualan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUKSI ============ -->
+  <section class="section section-warm" id="produksi">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">— G. Bahan & H. Rencana Produksi —</span>
+        <h2 class="section-title">Proses Produksi Kami</h2>
+        <p class="section-sub">Dari bahan mentah hingga siap dijual.</p>
+      </div>
+
+      <div class="produksi-grid">
+        <div class="bahan-card">
+          <h3><i class="fas fa-carrot"></i> Bahan-Bahan</h3>
+          <div class="bahan-list">
+            <span class="bahan-item">Singkong</span>
+            <span class="bahan-item">Keju</span>
+            <span class="bahan-item">Minyak Goreng</span>
+            <span class="bahan-item">Bumbu Tabur</span>
+            <span class="bahan-item">Garam</span>
+            <span class="bahan-item">Air</span>
+            <span class="bahan-item">Bahan Tambahan</span>
+          </div>
+
+          <h3 style="margin-top: 2rem;"><i class="fas fa-tools"></i> Peralatan</h3>
+          <div class="bahan-list">
+            <span class="bahan-item">Kompor</span>
+            <span class="bahan-item">Wajan</span>
+            <span class="bahan-item">Pisau</span>
+            <span class="bahan-item">Talenan</span>
+            <span class="bahan-item">Baskom</span>
+            <span class="bahan-item">Saringan</span>
+            <span class="bahan-item">Penjepit</span>
+            <span class="bahan-item">Kemasan</span>
+            <span class="bahan-item">Sarung Tangan</span>
+          </div>
+        </div>
+
+        <div class="alur-card">
+          <h3><i class="fas fa-list-check"></i> Alur Produksi</h3>
+          <ol class="alur-list">
+            <li>
+              <div class="alur-num">1</div>
+              <div class="alur-text">
+                <h5>Persiapan</h5>
+                <p>Menyiapkan seluruh bahan dan peralatan.</p>
+              </div>
+            </li>
+            <li>
+              <div class="alur-num">2</div>
+              <div class="alur-text">
+                <h5>Pengupasan</h5>
+                <p>Mengupas dan mencuci singkong hingga bersih.</p>
+              </div>
+            </li>
+            <li>
+              <div class="alur-num">3</div>
+              <div class="alur-text">
+                <h5>Pemotongan</h5>
+                <p>Memotong singkong sesuai ukuran.</p>
+              </div>
+            </li>
+            <li>
+              <div class="alur-num">4</div>
+              <div class="alur-text">
+                <h5>Penggorengan</h5>
+                <p>Menggoreng singkong hingga matang.</p>
+              </div>
+            </li>
+            <li>
+              <div class="alur-num">5</div>
+              <div class="alur-text">
+                <h5>Pemberian Topping</h5>
+                <p>Memberikan keju atau bumbu sesuai jenis produk.</p>
+              </div>
+            </li>
+            <li>
+              <div class="alur-num">6</div>
+              <div class="alur-text">
+                <h5>Pengemasan</h5>
+                <p>Mengemas produk dengan rapi dan menarik.</p>
+              </div>
+            </li>
+            <li>
+              <div class="alur-num">7</div>
+              <div class="alur-text">
+                <h5>Penjualan</h5>
+                <p>Menjual produk pada kegiatan Market Day.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="strategi-box">
+        <h3><i class="fas fa-bullhorn"></i> Strategi Pemasaran</h3>
+        <p>
+          Pemasaran dilakukan secara langsung kepada siswa, guru, dan warga
+          sekolah. Promosi dapat dilakukan melalui poster, status WhatsApp,
+          serta menawarkan produk secara langsung kepada calon pembeli. Produk
+          dikemas secara menarik agar lebih mudah menarik perhatian.
+        </p>
+        <div class="strategi-chips">
+          <span class="strategi-chip"><i class="fas fa-image"></i> Poster</span>
+          <span class="strategi-chip"><i class="fab fa-whatsapp"></i> Status WA</span>
+          <span class="strategi-chip"><i class="fas fa-bullhorn"></i> Promosi Langsung</span>
+          <span class="strategi-chip"><i class="fas fa-gift"></i> Kemasan Menarik</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ANGGARAN ============ -->
+  <section class="section" id="anggaran">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">— J. Rencana Anggaran Biaya —</span>
+        <h2 class="section-title">Rincian Modal</h2>
+        <p class="section-sub">
+          Total modal yang dibutuhkan untuk kegiatan Market Day ini.
+        </p>
+      </div>
+
+      <div class="anggaran-wrap">
+        <div class="anggaran-table">
+          <div class="table-head">
+            <span>No.</span>
+            <span>Kebutuhan</span>
+            <span>Biaya</span>
+          </div>
+          <div class="table-row">
+            <span>1</span>
+            <span><i class="fas fa-seedling"></i> Singkong</span>
+            <span>Rp50.000</span>
+          </div>
+          <div class="table-row">
+            <span>2</span>
+            <span><i class="fas fa-bottle-droplet"></i> Minyak Goreng</span>
+            <span>Rp35.000</span>
+          </div>
+          <div class="table-row">
+            <span>3</span>
+            <span><i class="fas fa-cheese"></i> Keju</span>
+            <span>Rp30.000</span>
+          </div>
+          <div class="table-row">
+            <span>4</span>
+            <span><i class="fas fa-pepper-hot"></i> Bumbu Tabur</span>
+            <span>Rp20.000</span>
+          </div>
+          <div class="table-row">
+            <span>5</span>
+            <span><i class="fas fa-box-open"></i> Bahan Tambahan</span>
+            <span>Rp15.000</span>
+          </div>
+          <div class="table-row">
+            <span>6</span>
+            <span><i class="fas fa-box"></i> Kemasan</span>
+            <span>Rp25.000</span>
+          </div>
+          <div class="table-row">
+            <span>7</span>
+            <span><i class="fas fa-fire"></i> Gas / Biaya Produksi</span>
+            <span>Rp20.000</span>
+          </div>
+          <div class="table-row total">
+            <span></span>
+            <span><i class="fas fa-calculator"></i> Total Modal</span>
+            <span>Rp195.000</span>
+          </div>
+        </div>
+
+        <div class="harga-card">
+          <h3><i class="fas fa-tag"></i> Rencana Harga Jual</h3>
+          <div class="harga-item">
+            <div class="harga-icon"><i class="fas fa-cheese"></i></div>
+            <div class="harga-info">
+              <span>Singkong Keju</span>
+              <strong>Rp5.000<span>/porsi</span></strong>
+            </div>
+          </div>
+          <div class="harga-item">
+            <div class="harga-icon"><i class="fas fa-bowl-food"></i></div>
+            <div class="harga-info">
+              <span>Tela-Tela</span>
+              <strong>Rp5.000<span>/porsi</span></strong>
+            </div>
+          </div>
+          <p class="harga-note">
+            <i class="fas fa-info-circle"></i>
+            Harga dapat disesuaikan dengan ukuran porsi dan kondisi saat Market
+            Day.
+          </p>
+
+          <div class="simulasi-box">
+            <h4><i class="fas fa-chart-pie"></i> Simulasi Keuntungan</h4>
+            <div class="simulasi-row">
+              <span>Modal</span>
+              <span>Rp195.000</span>
+            </div>
+            <div class="simulasi-row">
+              <span>Target Penjualan</span>
+              <span>60 porsi</span>
+            </div>
+            <div class="simulasi-row">
+              <span>Pendapatan</span>
+              <span>Rp300.000</span>
+            </div>
+            <div class="simulasi-row highlight">
+              <span>Estimasi Untung</span>
+              <span>Rp105.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PENUTUP ============ -->
+  <section class="section section-warm" id="penutup">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">— L. Penutup —</span>
+        <h2 class="section-title">Harapan Kami</h2>
+      </div>
+
+      <div class="penutup-box">
+        <div class="penutup-quote">"</div>
+        <p>
+          Demikian proposal kegiatan Market Day ini kami buat sebagai
+          pelaksanaan usaha sederhana dengan produk
+          <strong>Singkong Keju</strong> dan <strong>Tela-Tela</strong>. Kami
+          berharap kegiatan ini dapat berjalan dengan lancar serta memberikan
+          pengalaman dan pembelajaran mengenai kewirausahaan, kerja sama,
+          tanggung jawab, dan pengelolaan usaha kepada siswa.
+        </p>
+        <p class="terima-kasih">
+          Atas perhatian dan dukungannya, kami mengucapkan terima kasih.
+        </p>
+        <div class="penutup-sign">
+          <div class="sign-line"></div>
+          <span>Anggota Kelompok </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ ANGGOTA KELOMPOK ============ -->
+  <section class="section" id="anggota">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">— Struktur Kelompok —</span>
+        <h2 class="section-title">Anggota Kelompok</h2>
+        <p class="section-sub">
+          Sembilan siswa yang berkolaborasi mewujudkan Market Day ini.
+        </p>
+      </div>
+
+      <div class="anggota-grid">
+        <div class="anggota-card">
+          <div class="anggota-num">01</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Galih</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+
+        <div class="anggota-card">
+          <div class="anggota-num">02</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Farhan</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+
+        <div class="anggota-card">
+          <div class="anggota-num">03</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Andre</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+
+        <div class="anggota-card">
+          <div class="anggota-num">04</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Jildan</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+
+        <div class="anggota-card">
+          <div class="anggota-num">05</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Firnandha</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+
+        <div class="anggota-card">
+          <div class="anggota-num">06</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Rizki</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+
+        <div class="anggota-card">
+          <div class="anggota-num">07</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Bagas</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+
+        <div class="anggota-card">
+          <div class="anggota-num">08</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Evanio</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+
+        <div class="anggota-card">
+          <div class="anggota-num">09</div>
+          <div class="anggota-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="anggota-name">Afriza</h3>
+          <span class="anggota-role">Anggota</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="brand-icon"><i class="fas fa-store"></i></div>
+        <div>
+          <h4>Market Day</h4>
+          <p>Singkong Keju & Tela-Tela</p>
+        </div>
+      </div>
+
+      <div class="footer-quote">
+        <i class="fas fa-quote-left"></i>
+        Kreatif Berwirausaha, Menjadi Generasi Produktif
+      </div>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram" class="sos-btn"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="WhatsApp" class="sos-btn"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" aria-label="TikTok" class="sos-btn"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 About Market — Singkong Keju & Tela-Tela</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastText">Berhasil!</span>
+  </div>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll ke atas">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <div class="progress-bar" id="progressBar"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
